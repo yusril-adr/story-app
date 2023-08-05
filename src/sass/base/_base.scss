@@ -1,0 +1,10 @@
+@use '../abstracts/mixins' as mix;
+
+$width: 50;
+@while $width <= 300 {
+  .max-w-#{$width} {
+    @include mix.max-width-pixels($width);
+  }
+
+  $width: $width + 50;
+}

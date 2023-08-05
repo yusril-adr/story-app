@@ -1,0 +1,14 @@
+@use '../vendors';
+
+footer {
+  background-color: vendors.$purple-300;
+  color: vendors.$light;
+
+  p {
+    transition: transform .7s ease;
+
+    &:hover {
+      transform: scale(1.25);
+    }
+  }
+}
