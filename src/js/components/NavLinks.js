@@ -27,9 +27,9 @@ class NavLinks extends LitWithoutShadowDom {
       <nav-link
         name="${nav.name}"
         url="${nav.url}"
-        ?active="${nav.active || nothing}"
-        ${nav.target ? `nav="${nav.target}"` : nothing}
-        ${nav.rel ? `nav="${nav.rel}"` : nothing}
+        ?active="${nav.active}"
+        target="${nav.target || nothing}"
+        rel="${nav.rel || nothing}"
       ></nav-link>
     `;
   }
