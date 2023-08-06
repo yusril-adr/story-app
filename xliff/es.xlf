@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="es" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s7c3a649c7cab4bc9">
+  <source>Attribute "inputId" must be implemented on element <x id="0" equiv-text="${this.localName}"/></source>
+  <target>El atributo "inputId" debe implementarse en el elemento <x id="0" equiv-text="${this.localName}"/></target>
+</trans-unit>
+<trans-unit id="s2907bf0d633436e4">
+  <source>Some text</source>
+  <target>Algún texto</target>
+</trans-unit>
+<trans-unit id="s6abb1cd87fe0114e">
+  <source>Home</source>
+  <target>Home</target>
+</trans-unit>
+<trans-unit id="s1f30f2eaf1e38fb9">
+  <source>Add Story</source>
+  <target>Agregar historia</target>
+</trans-unit>
+<trans-unit id="s4eac06443983c80c">
+  <source>About Developer</source>
+  <target>Acerca del desarrollador</target>
+</trans-unit>
+<trans-unit id="s2f8c5784d438537d">
+  <source>© Yusril A. P. <x id="0" equiv-text="${new Date().getFullYear()}"/> All rights reserved.</source>
+  <target>© Yusril A. P. <x id="0" equiv-text="${new Date().getFullYear()}"/> Reservados todos los derechos.</target>
+</trans-unit>
+<trans-unit id="s14420b395f4e4721">
+  <source>Language :</source>
+  <target>Idioma :</target>
+</trans-unit>
+<trans-unit id="s0493667c0cd0c5ff">
+  <source>Share your story with everyone.</source>
+  <target>Comparte tu historia con todos/todas.</target>
+</trans-unit>
+<trans-unit id="sffb3ebf3c9e204af">
+  <source>Start Now</source>
+  <target>Empezar ahora</target>
+</trans-unit>
+<trans-unit id="s5578f229c2113e87">
+  <source>Share New Story</source>
+  <target>Compartir nueva historia</target>
+</trans-unit>
+<trans-unit id="saf4fef23f47fc4a2">
+  <source>Stories</source>
+  <target>Cuentos</target>
+</trans-unit>
+<trans-unit id="sddae88563a4deba1">
+  <source>Your story looks pretty cool !</source>
+  <target>¡Tu historia se ve muy bien!</target>
+</trans-unit>
+<trans-unit id="s4b03071183e48d13">
+  <source>Please tell us about your story</source>
+  <target>Cuéntanos tu historia</target>
+</trans-unit>
+<trans-unit id="s487f1ce1eecbddda">
+  <source>Tell me what your story...</source>
+  <target>Cuéntame cuál es tu historia...</target>
+</trans-unit>
+<trans-unit id="s3d93f9ea0c5a13fa">
+  <source>Image</source>
+  <target>Imagen</target>
+</trans-unit>
+<trans-unit id="sc7b8edcd8c115f7c">
+  <source>Your story image looks pretty cool !</source>
+  <target>¡La imagen de tu historia se ve muy bien!</target>
+</trans-unit>
+<trans-unit id="sb8d24cf4c2a35b22">
+  <source>Please share us image about your story</source>
+  <target>Por favor, comparte con nosotros una imagen sobre tu historia.</target>
+</trans-unit>
+<trans-unit id="sa031c3b6e1b9b32b">
+  <source>Show us your story with image...</source>
+  <target>Muéstranos tu historia con imagen...</target>
+</trans-unit>
+<trans-unit id="s2df075aface0dab8">
+  <source>Share</source>
+  <target>Compartir</target>
+</trans-unit>
+<trans-unit id="s417b90913e05bc17">
+  <source>Preview</source>
+  <target>Avance</target>
+</trans-unit>
+<trans-unit id="s6ffd35dd41672c31">
+  <source>Attribute "url" must be implemented on element: <x id="0" equiv-text="${this.localName}"/></source>
+  <target>El atributo "url" debe implementarse en el elemento <x id="0" equiv-text="${this.localName}"/></target>
+</trans-unit>
+<trans-unit id="s5c61ffad8f9de079">
+  <source>Attribute "name" must be implemented on element: <x id="0" equiv-text="${this.localName}"/></source>
+  <target>El atributo "name" debe implementarse en el elemento <x id="0" equiv-text="${this.localName}"/></target>
+</trans-unit>
+<trans-unit id="s2e826a0f0a885cc7">
+  <source>People Stories</source>
+  <target>Historias de personas</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

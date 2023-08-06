@@ -22,7 +22,7 @@ class LottiePlayer extends LitElement {
 
   _checkAvailabilityProperty() {
     if (!this.hasAttribute('url')) {
-      throw new Error(msg(str`Attribut "url" must be implemented on element: ${this.localName}`));
+      throw new Error(msg(str`Attribute "url" must be implemented on element: ${this.localName}`));
     }
   }
 

@@ -3,87 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Story App</title>
 </head>
 <body>
   <header >
-    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Story App</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="bi bi-list"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-            <li class="nav-item mx-lg-3">
-              <a class="nav-link" href="/story/add.html">Add Story</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://yusril-adr.github.io" target="_blank" rel="noreferrer">About Creator</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <nav-bar></nav-bar>
   </header>
 
   <main class="mb-4">
     <div class="container">
-         <div class="row mt-5 ">
-            <div class="col-md-6">
-              <h1 class="mb-3">Share New Story</h1>
-              <form class="row g-3" id="addRecordForm" novalidate>
-                <div class="col-12">
-                  <label for="validationStories" class="form-label">Stories</label>
-                  <textarea
-                    id="validationStories"
-                    class="form-control"
-                    rows="3"
-                    required
-                    placeholder="Tell me what your story..."
-                  ></textarea>
-    
-                  <div class="invalid-feedback">Wajib Diisi</div>
-                </div>
-    
-                <div class="col-12">
-                  <label for="validationImage" class="form-label">Image</label>
-                  <input class="form-control" type="file" id="validationImage" required>
-                  <div class="invalid-feedback">Wajib Diisi</div>
-                </div>
-    
-                <div class="col-12 text-center text-md-end">
-                  <button class="btn btn-primary" type="submit">Submit</button>
-                </div>
-              </form>
-            </div>
+      <div class="row mt-5 ">
+        <div class="col-md-6">
+          <story-add-title></story-add-title>
+          <form id="addRecordForm" novalidate>
+            <story-add-form-group class="row g-3"></story-add-form-group>
+          </form>
+        </div>
 
-            <div class="col-md-6 offset-lg-1 col-lg-5">
-              <h2 class="mb-3 mt-3 mt-lg-0 text-center">Preview</h2>
-
-              <div class="card">
-                <img src="https://source.unsplash.com/1200x700/?nature" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Faisal Sulaiman</h5>
-                  <p class="card-text">In rhoncus lorem nec ex egestas mollis vel a mauris. Pellentesque vel diam at neque hendrerit bibendum. Quisque egestas, dolor eu semper dapibus, turpis neque.</p>
-                </div>
-                <div class="card-footer">
-                  Senin, 1 Agustus 2023
-                </div> 
-              </div>
-            </div>
-         </div>
+        <div class="col-md-6 offset-lg-1 col-lg-5">
+          <story-add-preview></story-add-preview>
+        </div>
+      </div>
     </div>
   </main>
 
-  <footer class="d-flex justify-content-center align-items-center text-light p-2">
-    © Yusril A. P. 2023 All rights reserved
+  <footer class="p-2">
+    <footer-content></footer-content>
   </footer>
-  <script>
-    document.querySelector('form').addEventListener('submit', (e) => e.preventDefault())
-  </script>
+
+  <modal-alert></modal-alert>
 </body>
 </html>

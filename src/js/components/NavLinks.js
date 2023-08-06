@@ -1,5 +1,5 @@
 import { html, nothing } from 'lit';
-
+import { updateWhenLocaleChanges } from '@lit/localize';
 import LitWithoutShadowDom from './base/LitWithoutShadowDom';
 
 import './NavLink';
@@ -11,6 +11,7 @@ class NavLinks extends LitWithoutShadowDom {
 
   constructor() {
     super();
+    updateWhenLocaleChanges(this);
     this.navs = [];
   }
 
@@ -23,14 +24,27 @@ class NavLinks extends LitWithoutShadowDom {
   }
 
   _renderNavLink(nav) {
+    // return html`
+    //   <nav-link
+    //     name="${nav.name}"
+    //     url="${nav.url}"
+    //     ?active="${nav.active}"
+    //     target="${nav.target || nothing}"
+    //     rel="${nav.rel || nothing}"
+    //   ></nav-link>
+    // `;
+
     return html`
-      <nav-link
-        name="${nav.name}"
-        url="${nav.url}"
-        ?active="${nav.active}"
-        target="${nav.target || nothing}"
-        rel="${nav.rel || nothing}"
-      ></nav-link>
+      <li class="nav-item">
+        <a
+          class="nav-link ${nav.active ? 'active' : ''}"
+          href="${nav.url}"
+          rel="${nav.rel || nothing}"
+          target="${nav.target || nothing}"
+        >
+          ${nav.name}
+        </a>
+      </li>
     `;
   }
 }

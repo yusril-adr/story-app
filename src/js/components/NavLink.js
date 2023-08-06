@@ -22,11 +22,11 @@ class NavLink extends LitWithoutShadowDom {
 
   _checkAvailabilityProperty() {
     if (!this.hasAttribute('name')) {
-      throw new Error(msg(str`Attribut "name" must be implemented on element: ${this.localName}`));
+      throw new Error(msg(str`Attribute "name" must be implemented on element: ${this.localName}`));
     }
 
     if (!this.hasAttribute('url')) {
-      throw new Error(msg(str`Attribut "url" must be implemented on element: ${this.localName}`));
+      throw new Error(msg(str`Attribute "url" must be implemented on element: ${this.localName}`));
     }
   }
 

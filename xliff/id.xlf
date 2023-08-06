@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file target-language="id" source-language="en" original="lit-localize-inputs" datatype="plaintext">
+<body>
+<trans-unit id="s7c3a649c7cab4bc9">
+  <source>Attribute "inputId" must be implemented on element <x id="0" equiv-text="${this.localName}"/></source>
+  <target>Attribut "inputId" harus diimplementasikan pada elemen <x id="0" equiv-text="${this.localName}"/></target>
+</trans-unit>
+<trans-unit id="s2907bf0d633436e4">
+  <source>Some text</source>
+  <target>Sebuah text</target>
+</trans-unit>
+<trans-unit id="s6abb1cd87fe0114e">
+  <source>Home</source>
+  <target>Home</target>
+</trans-unit>
+<trans-unit id="s1f30f2eaf1e38fb9">
+  <source>Add Story</source>
+  <target>Cerita Baru</target>
+</trans-unit>
+<trans-unit id="s4eac06443983c80c">
+  <source>About Developer</source>
+  <target>Tentang Pengembang</target>
+</trans-unit>
+<trans-unit id="s2f8c5784d438537d">
+  <source>© Yusril A. P. <x id="0" equiv-text="${new Date().getFullYear()}"/> All rights reserved.</source>
+  <target>Seluruh hak cipta © <x id="0" equiv-text="${new Date().getFullYear()}"/> milik Yusril A. P.</target>
+</trans-unit>
+<trans-unit id="s14420b395f4e4721">
+  <source>Language :</source>
+  <target>Bahasa :</target>
+</trans-unit>
+<trans-unit id="s0493667c0cd0c5ff">
+  <source>Share your story with everyone.</source>
+  <target>Ceritakan kisahmu ke semua orang.</target>
+</trans-unit>
+<trans-unit id="sffb3ebf3c9e204af">
+  <source>Start Now</source>
+  <target>Mulai Sekarang</target>
+</trans-unit>
+<trans-unit id="s5578f229c2113e87">
+  <source>Share New Story</source>
+  <target>Ceritakan Kisah Baru</target>
+</trans-unit>
+<trans-unit id="saf4fef23f47fc4a2">
+  <source>Stories</source>
+  <target>Kisah</target>
+</trans-unit>
+<trans-unit id="sddae88563a4deba1">
+  <source>Your story looks pretty cool !</source>
+  <target>Kisahmu tampak menakjubkan !</target>
+</trans-unit>
+<trans-unit id="s4b03071183e48d13">
+  <source>Please tell us about your story</source>
+  <target>Ceritakan dengan kita kisahmu</target>
+</trans-unit>
+<trans-unit id="s487f1ce1eecbddda">
+  <source>Tell me what your story...</source>
+  <target>Ceritakan Kisahmu...</target>
+</trans-unit>
+<trans-unit id="s3d93f9ea0c5a13fa">
+  <source>Image</source>
+  <target>Gambar</target>
+</trans-unit>
+<trans-unit id="sc7b8edcd8c115f7c">
+  <source>Your story image looks pretty cool !</source>
+  <target>Gambar kisahmu terlihat menakjubkan !</target>
+</trans-unit>
+<trans-unit id="sb8d24cf4c2a35b22">
+  <source>Please share us image about your story</source>
+  <target>Bagikan gambar kisahmu</target>
+</trans-unit>
+<trans-unit id="sa031c3b6e1b9b32b">
+  <source>Show us your story with image...</source>
+  <target>Perlihatkan gambar kisahmu...</target>
+</trans-unit>
+<trans-unit id="s2df075aface0dab8">
+  <source>Share</source>
+  <target>Bagikan</target>
+</trans-unit>
+<trans-unit id="s417b90913e05bc17">
+  <source>Preview</source>
+  <target>Pratinjau</target>
+</trans-unit>
+<trans-unit id="s6ffd35dd41672c31">
+  <source>Attribute "url" must be implemented on element: <x id="0" equiv-text="${this.localName}"/></source>
+  <target>Attribut "url" harus diimplementasikan pada elemen <x id="0" equiv-text="${this.localName}"/></target>
+</trans-unit>
+<trans-unit id="s5c61ffad8f9de079">
+  <source>Attribute "name" must be implemented on element: <x id="0" equiv-text="${this.localName}"/></source>
+  <target>Attribut "name" harus diimplementasikan pada elemen <x id="0" equiv-text="${this.localName}"/></target>
+</trans-unit>
+<trans-unit id="s2e826a0f0a885cc7">
+  <source>People Stories</source>
+  <target>Kisah semua orang</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

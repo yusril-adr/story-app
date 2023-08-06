@@ -3,7 +3,6 @@ import '../sass/main.scss';
 
 // Import javascript file as needed
 // eslint-disable-next-line no-unused-vars
-import * as bootstrap from 'bootstrap';
 import './components';
 
 // Import javascript file as needed
