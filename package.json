@@ -8,6 +8,8 @@
     "build:start": "npm run build:prod && npm start",
     "lit:extract": "lit-localize extract",
     "lit:build": "lit-localize build",
+    "lint": "eslint ./",
+    "lint:fix": "eslint ./ --fix",
     "start": "http-server ./dist"
   },
   "keywords": [],
