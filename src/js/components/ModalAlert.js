@@ -29,7 +29,7 @@ class ModalAlert extends LitWithoutShadowDom {
               <p>${this.body}</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Ok</button>
+              <button type="button" class="btn btn-primary px-3" data-bs-dismiss="modal">Ok</button>
             </div>
           </div>
         </div>

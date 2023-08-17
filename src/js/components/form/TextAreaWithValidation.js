@@ -41,7 +41,7 @@ class TextareaWithValidation extends LitWithoutShadowDom {
     return html`
       <textarea
         id="${this.inputId || nothing}"
-        name=${this.inputId || nothing}
+        name="${this.inputId || nothing}"
         class="form-control"
         rows="${this.rows || nothing}"
         value="${this.value || nothing}"
@@ -50,8 +50,8 @@ class TextareaWithValidation extends LitWithoutShadowDom {
         @input=${this._onInput}
       ></textarea>
  
-      <div class="valid-feedback">${this.validFeedbackMessage}</div>
-      <div class="invalid-feedback">${this.invalidFeedbackMessage}</div>
+      <div class="valid-feedback">${this.validFeedbackMessage || nothing}</div>
+      <div class="invalid-feedback">${this.invalidFeedbackMessage || nothing}</div>
     `;
   }
 

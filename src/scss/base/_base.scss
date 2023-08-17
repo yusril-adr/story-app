@@ -1,0 +1,45 @@
+@use '../vendors';
+@use '../abstracts/mixins' as mix;
+
+$start-width: 50;
+$max-width: 500;
+
+$width: $start-width;
+@while $width <= $max-width {
+  .max-w-#{$width} {
+    @include mix.max-width-pixels($width);
+  }
+  
+  .min-w-#{$width} {
+    @include mix.min-width-pixels($width);
+  }
+
+  $width: $width + 50;
+}
+
+.card {
+  height: 100%;
+
+  img[alt]:not([alt='Preview']) {
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@each $breakpoint, $viewport in vendors.$grid-breakpoints {
+  @media screen and (min-width: $viewport) {
+    $width: $start-width;
+    @while $width <= $max-width {
+      .max-w-#{$breakpoint}-#{$width} {
+        @include mix.max-width-pixels($width);
+      }
+
+      .min-w-#{$breakpoint}-#{$width} {
+        @include mix.min-width-pixels($width);
+      }
+
+      $width: $width + 50;
+    }
+  }
+}

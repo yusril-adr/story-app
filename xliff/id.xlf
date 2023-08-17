@@ -94,6 +94,50 @@
   <source>People Stories</source>
   <target>Kisah semua orang</target>
 </trans-unit>
+<trans-unit id="s73bb022c2937ec69">
+  <source>Loading ...</source>
+  <target>Memuat ...</target>
+</trans-unit>
+<trans-unit id="sc8da3cc71de63832">
+  <source>Login</source>
+  <target>Masuk</target>
+</trans-unit>
+<trans-unit id="s2c15b9b13a3e2a80">
+  <source>Register</source>
+  <target>Daftar</target>
+</trans-unit>
+<trans-unit id="sb64127e4e4f0b575">
+  <source>Log out</source>
+  <target>Keluar</target>
+</trans-unit>
+<trans-unit id="sc169ca295b22de6c">
+  <source>Looking Good !</source>
+  <target>Terlihat Bagus</target>
+</trans-unit>
+<trans-unit id="sa70c74939dba1821">
+  <source>Your email is invalid.</source>
+  <target>Email kamu tidak sesuai.</target>
+</trans-unit>
+<trans-unit id="s1d6075382a80bc94">
+  <source>Password minimum length is <x id="0" equiv-text="${config.PASSWORD_MIN_LENGTH}"/>.</source>
+  <target>Minimal panjang password adalah <x id="0" equiv-text="${config.PASSWORD_MIN_LENGTH}"/>.</target>
+</trans-unit>
+<trans-unit id="sd4a5ecc9d35d60b3">
+  <source>Don't have account?</source>
+  <target>Belum punya akun?</target>
+</trans-unit>
+<trans-unit id="s11b2e9ecce28690c">
+  <source>Display Name</source>
+  <target>Nama Pengguna</target>
+</trans-unit>
+<trans-unit id="sbf91c9859d0713c6">
+  <source>Please fill your display name.</source>
+  <target>Tolong isikan nama penggunamu.</target>
+</trans-unit>
+<trans-unit id="s374b7ba47861c79a">
+  <source>Have an account?</source>
+  <target>Punya akun?</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

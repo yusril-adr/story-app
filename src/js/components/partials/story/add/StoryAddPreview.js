@@ -1,7 +1,8 @@
 import { html } from 'lit';
 import { msg, updateWhenLocaleChanges } from '@lit/localize';
-import LitWithoutShadowDom from './base/LitWithoutShadowDom';
-import DateHelper from '../utils/DateHelper';
+import LitWithoutShadowDom from '../../../base/LitWithoutShadowDom';
+import DateHelper from '../../../../utils/DateHelper';
+import User from '../../../../services/localStorage/User';
 
 class StoryAddPreview extends LitWithoutShadowDom {
   static properties = {
@@ -15,7 +16,7 @@ class StoryAddPreview extends LitWithoutShadowDom {
     updateWhenLocaleChanges(this);
 
     this.imageUrl = 'https://source.unsplash.com/1200x700/?nature';
-    this.username = 'John Doe';
+    this.username = User.getUser()?.name || 'Anonymous';
     this.description = '';
   }
 
@@ -24,7 +25,7 @@ class StoryAddPreview extends LitWithoutShadowDom {
       <h2 class="mb-3 mt-3 mt-lg-0 text-center">${msg('Preview')}</h2>
 
       <div class="card">
-        <img src="${this.imageUrl}" class="card-img-top" alt="${msg('Preview')}">
+        <img src="${this.imageUrl}" class="card-img-top" alt="Preview">
         <div class="card-body">
           <h5 class="card-title">${this.username}</h5>
           <p class="card-text">${this.description}</p>

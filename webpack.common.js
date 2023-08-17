@@ -44,6 +44,14 @@ module.exports = {
       template: path.resolve(__dirname, 'src/views/index.html'),
     }),
     new HtmlWebpackPlugin({
+      filename: 'auth/register.html',
+      template: path.resolve(__dirname, 'src/views/auth/register.html'),
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'auth/login.html',
+      template: path.resolve(__dirname, 'src/views/auth/login.html'),
+    }),
+    new HtmlWebpackPlugin({
       filename: 'story/add.html',
       template: path.resolve(__dirname, 'src/views/story/add.html'),
     }),

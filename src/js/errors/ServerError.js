@@ -1,11 +1,11 @@
 import CustomError from './CustomError';
 
-class APIError extends CustomError {
+class ServerError extends CustomError {
   constructor(message, code = 500) {
     super(message);
-    this.name = 'APIError';
+    this.name = 'ServerError';
     this.statusCode = code;
   }
 }
 
-export default APIError;
+export default ServerError;

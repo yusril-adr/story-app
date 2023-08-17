@@ -3,8 +3,6 @@ import { msg, str, updateWhenLocaleChanges } from '@lit/localize';
 
 import LitWithoutShadowDom from './base/LitWithoutShadowDom';
 
-// import './private/LocalePicker';
-
 class FooterContent extends LitWithoutShadowDom {
   constructor() {
     super();

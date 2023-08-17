@@ -1,0 +1,7 @@
+@mixin max-width-pixels($pixels: 100) {
+  max-width: $pixels + px;
+}
+
+@mixin min-width-pixels($pixels: 100) {
+  min-width: $pixels + px;
+}

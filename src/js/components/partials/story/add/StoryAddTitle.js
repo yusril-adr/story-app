@@ -1,6 +1,6 @@
 import { html } from 'lit';
 import { msg, updateWhenLocaleChanges } from '@lit/localize';
-import LitWithoutShadowDom from './base/LitWithoutShadowDom';
+import LitWithoutShadowDom from '../../../base/LitWithoutShadowDom';
 
 class StoryAddTitle extends LitWithoutShadowDom {
   constructor() {
